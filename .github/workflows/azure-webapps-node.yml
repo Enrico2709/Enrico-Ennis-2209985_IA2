@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This is a portfolio website for Enrico Ennis.">
+  <title>Your Portfolio Website</title>
+  <!-- Add the CSS link here -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Include Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    /* Reset some default browser styles */
+    body, h1, h2, p {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Set a background color for the entire page */
+    body {
+      background-color: #f7f7f7;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    /* Style the header section */
+    header {
+      text-align: center;
+      background-color: #0077b6; /* Dark Blue background */
+      color: #fff;
+      padding: 20px 0;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    /* Style the navigation menu */
+    nav {
+      background-color: #0077b6; /* Dark Blue background */
+      margin: 10px 0;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    nav li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #fff; /* White text color */
+      font-weight: bold;
+      font-size: 1.2rem; /* Adjust font size */
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ff6600; /* Orange color on hover */
+    }
+
+    /* Style the main content section */
+    main {
+      padding: 20px;
+    }
+
+    /* Style the welcome section */
+    #home {
+      text-align: center;
+    }
+
+    #profile-image {
+      max-width: 200px; /* Adjust the size as needed */
+      height: auto;
+      border-radius: 50%;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s ease-in-out;
+      display: block;
+      margin: 0 auto;
+    }
+
+    #home p {
+      font-size: 1.1rem;
+      margin-top: 20px;
+    }
+
+    /* Style links */
+    a.external-link {
+      color: #ff6600; /* Orange color for external links */
+    }
+
+    a.external-link:hover {
+      color: #333;
+    }
+
+    a.internal-link {
+      color: #ff6600; /* Orange color for internal links */
+    }
+
+    a.internal-link:hover {
+      color: #333;
+    }
+
+    /* Style the contact section */
+    #contact {
+      text-align: center;
+    }
+
+    #contact-image {
+      max-width: 200px; /* Adjust the size as needed */
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s ease-in-out;
+      display: block;
+      margin: 0 auto;
+    }
+
+    /* Style the footer */
+    footer {
+      text-align: center;
+      background-color: #0077b6; /* Dark Blue background */
+      color: #fff;
+      padding: 10px 0;
+    }
+
+    .social-media-links {
+      list-style: none;
+      padding: 0;
+    }
+
+    .social-media-links li {
+      display: inline;
+      margin-right: 10px;
+    }
+
+    .social-media-link {
+      text-decoration: none;
+      color: #fff;
+      font-size: 1.3rem;
+    }
+
+    .social-media-link:hover {
+      color: #ff6600; /* Orange color on hover */
+    }
+  </style>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <header>
+    <h1>Enrico Ennis</h1>
+    <h2>Your Portfolio Website</h2>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="professional.html">Professional</a></li>
+      <li><a href="personal.html">Personal</a></li>
+      <li><a href="personal-development.html">Personal Development</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="home">
+      <h2>Welcome</h2>
+      <div>
+        <img src="img/Enrico Ennis.jpg" alt="Enrico Ennis - Profile Image" id="profile-image">
+      </div>
+      <p>Welcome to my portfolio website. I'm passionate about Computer Science, and I'm excited to share my journey and accomplishments with you. Whether you're here to learn more about my professional experience, explore my personal interests, or join me on my path of personal development, I hope you find inspiration and valuable insights during your visit. Feel free to navigate through the sections to get to know me better. If you have any questions or would like to connect, don't hesitate to reach out. Thank you for stopping by!</p>
+      <a href="https://www.example.com" target="_blank" class="external-link" title="Visit Example.com">Example.com</a>
+      <a href="#contact" class="internal-link" title="Jump to the Contact section">Contact Section</a>
+    </section>
+     <section id="contact">
+  <h2>Contact</h2>
+  <p>You can contact me via email By clicking on my image here:</p>
+  <a href="mailto:ennisenrico@gmail.com?subject=Hello">
+    <img src="img/Enrico Ennis.jpg" alt="Enrico Ennis - Contact" id="contact-image">
+  </a>
+</section>
+
+
+
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Enrico Ennis</p>
+    <ul class="social-media-links">
+      <li><a href="https://twitter.com/ennisenrico" target="_blank" class="social-media-link" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/ennisenrico" target="_blank" class="social-media-link" title="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+      <li><a href="https://www.github.com/ennisenrico" target="_blank" class="social-media-link" title="GitHub"><i class="fab fa-github"></i></a></li>
+      <li><a href="https://wa.me/8764741578" target="_blank" class="whatsapp-link" rel="noreferrer" title="WhatsApp me"><i class="fab fa-whatsapp"></i></a></li>
+    </ul>
+  </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Page</title>
+    <style>
+        /* Common styles for both desktop and mobile */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #0073e6;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .accent-color {
+            color: #fff;
+        }
+
+        /* Image styles */
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out;
+            display: block;
+            margin: 0 auto;
+        }
+
+        /* Section styles */
+        .content-section {
+            background-color: #f6f6f6;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+        }
+
+        .section-title {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .section-subtitle {
+            color: #0073e6;
+            font-size: 20px;
+            margin-top: 20px;
+        }
+
+        /* Navigation bar styles */
+        nav {
+            background-color: #333;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 20px;
+            font-size: 18px;
+        }
+
+        /* Mobile-specific styles */
+        @media (max-width: 768px) {
+            header {
+                padding: 10px;
+            }
+
+            .content-section {
+                margin: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="accent-color">Personal Page</h1>
+        <img src="img/Personal Page.jpg" alt="My test 2" style="max-width: 50%; height: auto;">
+        <p>Welcome to my personal page where you can get to know me better. Discover my personality traits, interests, and the things that make me tick.</p>
+    </header>
+
+    <!-- Navigation bar -->
+    <nav>
+        <a href="#personal-page">Personal Page</a>
+        <a href="#personality-assessment">Personality Assessment</a>
+    </nav>
+
+    <section id="personal-page" class="content-section">
+        <h2 class="section-title">Explore My Personalities</h2>
+        <p>I am a highly motivated and inquisitive individual with a passion for learning and growth. I am always looking for new challenges and opportunities to expand my knowledge and skills.</p>
+        <p>One of my favorite quotes that resonates deeply with me is:</p>
+        <blockquote style="background-color: #fff; border-left: 4px solid #0073e6; padding: 10px; margin: 10px 0;">
+            <span style="color: #ff6600;">The purpose of our lives is to be happy.</span> - Dalai Lama
+        </blockquote>
+        <p>Here's a glimpse of what makes me tick:</p>
+        <ul>
+            <li><strong class="interactive">Traits:</strong> Inquisitive, compassionate, and a perpetual dreamer.</li>
+            <li><strong class="interactive">Emotions:</strong> I cherish joy, serenity, and wonder.</li>
+            <li><strong class="interactive">Likes:</strong> Exploring hidden gems, capturing moments through photography, and immersing myself in the world of books.</li>
+            <li><strong class="interactive">Dislikes:</strong> Negativity and closed-mindedness.</li>
+            <li><strong class="interactive">Hobbies:</strong> Writing poetry, stargazing, and hiking through nature's wonders.</li>
+        </ul>
+        <p>My strongest trait and emotion, along with my hobbies, have a significant impact on my school/academic life. Being inquisitive drives me to explore subjects deeply, while my compassion helps me collaborate effectively with classmates. My love for learning aligns with my academic pursuits.</p>
+    </section>
+
+    <section id="personality-assessment" class="content-section">
+        <h2 class="section-title">Personality Assessment</h2>
+        <img src="img/Personality test.jpg" alt="Personality Test Results" style="max-width: 100%; height: auto;">
+        <h4 class="section-subtitle">Reflection:</h4>
+        <p>I recently took the <a href="https://www.keirsey.com/" style="color: #0073e6; text-decoration: underline;" target="_blank">Keirsey Temperament Sorter</a> personality test to gain insights into my personality. After analyzing the results, I found that my personality type aligns with that of a <strong class="interactive">Guardian</strong>.</p>
+        <p>In general, personality tests like Keirsey's provide valuable frameworks for understanding human behavior and interactions. They can be insightful tools for self-discovery and personal growth.</p>
+        <p>As a <strong class="interactive">Guardian</strong>, I tend to value stability, responsibility, and tradition. This insight into my personality will help me better understand my strengths and areas for growth, allowing me to make informed decisions in various aspects of life.</p>
+    </section>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Personal Development</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Styling for the personal development section */
+    .content-section {
+      background-color: #f6f6f6;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .section-title {
+      color: #333;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .section-subtitle {
+      color: #0073e6;
+      font-size: 20px;
+      margin-top: 20px;
+    }
+
+    .section-content {
+      color: #333;
+    }
+
+    /* Styling for the personal development footer */
+    .personal-development-footer {
+      background-color: #007bff;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      font-size: 16px;
+      text-transform: uppercase;
+    }
+
+    .personal-development-footer a {
+      color: #fff; /* Link color in the footer */
+      text-decoration: none; /* Remove underline from links */
+    }
+  </style>
+</head>
+<img src="img/Personal Development.jpg" alt="My test 2" style="max-width: 100%; height: auto;">
+<body>
+
+<section class="content-section">
+  <h2 class="section-title">Personal Development</h2>
+  <p class="section-content">Let's talk about personal growth:</p>
+
+  <h3 class="section-subtitle">Strengths:</h3>
+  <p class="section-content">Among my strengths, I consider my adaptability, resilience, and unwavering dedication as paramount. Over the past five years, I have honed these strengths through dynamic leadership roles, challenging experiences, and ongoing communication training.</p>
+
+  <h3 class="section-subtitle">Personal Development</h3>
+  <p class="section-content">In my journey of personal development, I have been inspired by the lessons from "Twelve Pillars" by Jim Rohn and Chris Widener. These chapters have reinforced the importance of lifelong learning, embracing change, and taking care of my well-being.</p>
+  <p class="section-content">As I work towards my Bachelor's degree in Computer Science, I apply these principles to my academic and personal life. Continuous learning is essential in the ever-evolving tech field, and I welcome change as an opportunity for growth. I also prioritize my well-being, understanding that a healthy body and mind are key to success.</p>
+
+  <h3 class="section-subtitle">Book Reflection:</h3>
+  <p class="section-content">Having immersed myself in <a href="https://archive.org/details/twelvepillars00jimr/page/n131/mode/2up" rel="nofollow" target="_blank">"Twelve Pillars"</a> by Jim Rohn and Chris Widener, I have been enlightened by their wisdom on personal development and leadership. The book's emphasis on taking responsibility for our lives and fostering continual self-improvement deeply resonates with my life philosophy. I am eager to apply these principles to my professional journey and personal growth.</p>
+
+  <footer class="personal-development-footer">
+    <p>&copy; Enrico Ennis 2023</p>
+    <p>Subscribe to my newsletter for more updates on my personal development journey: <a href="https://example.com/subscribe">Subscribe now</a>.</p>
+  </footer>
+</section>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional Portfolio</title>
+  <style>
+    /* Common styles for both desktop and mobile */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Header styles */
+    header {
+      background-color: #0073e6;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .accent-color {
+      color: #fff;
+    }
+
+    /* Image styles */
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s ease-in-out;
+      display: block;
+      margin: 0 auto;
+    }
+
+    /* Section styles */
+    .content-section {
+      background-color: #f6f6f6;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      margin: 20px;
+    }
+
+    .section-title {
+      color: #333;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .section-subtitle {
+      color: #0073e6;
+      font-size: 20px;
+      margin-top: 20px;
+    }
+
+    /* Navigation bar styles */
+    nav {
+      background-color: #333;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      margin: 0 20px;
+      font-size: 18px;
+    }
+
+    /* Mobile-specific styles */
+    @media (max-width: 768px) {
+      header {
+        padding: 10px;
+      }
+
+      .content-section {
+        margin: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1 class="accent-color">Professional Portfolio</h1>
+    <img src="img/Professional Page.jpg" alt="My test 2" style="max-width: 60%; height: auto;">
+    <p>Explore my career goals, skills, and achievements in the professional field.</p>
+  </header>
+
+  <!-- Navigation bar -->
+  <nav>
+    <a href="#professional">Professional</a>
+  </nav>
+
+  <section id="professional" class="content-section">
+    <h2 class="section-title">Professional</h2>
+
+    <p>I am a highly skilled and customer-oriented professional with a strong passion for providing technical support. I have a proven track record of success in troubleshooting hardware and software issues, delivering exceptional customer service, and ensuring prompt problem resolution.</p>
+
+    <div class="contact-info" style="margin-bottom: 20px;">
+      <p>
+        <strong style="color: #0073e6;">Name:</strong> Enrico Ennis<br>
+        <strong style="color: #0073e6;">Address:</strong> Shrewsbury Logwood, Petersfield P.O., Westmoreland<br>
+        <strong style="color: #0073e6;">Tel:</strong> <a href="tel:18764741578" style="color: #0073e6;">1(876) 474-1578</a>/<a href="tel:18768528275" style="color: #0073e6;">852-8275</a><br>
+        <strong style="color: #0073e6;">Email:</strong> <a href="mailto:ennisenrico@gmail.com" style="color: #0073e6;">ennisenrico@gmail.com</a>
+        <br>
+        <strong style="color: #0073e6;">LinkedIn:</strong> <a href="https://www.linkedin.com/in/enrico-ennis/" style="color: #0073e6;">https://www.linkedin.com/in/enrico-ennis/</a>
+      </p>
+    </div>
+
+    <h3 class="section-subtitle" style="color: #0073e6; font-size: 20px; margin-top: 20px;">Objective:</h3>
+    <p style="color: #333;">Seeking a Technical Support position to utilize my extensive knowledge and expertise in troubleshooting hardware and software issues, delivering exceptional customer service, and ensuring prompt problem resolution.</p>
+
+    <h3 class="section-subtitle" style="color: #0073e6; font-size: 20px; margin-top: 20px;">Skills:</h3>
+    <ul class="skill-list" style="color: #333;">
+      <li>Technical Troubleshooting: Proficient in diagnosing and resolving complex technical issues related to computer hardware, software, and network systems.</li>
+      <li>Customer Service: Experienced in providing exceptional customer service, effectively understanding and addressing customer inquiries, and meeting their technical requirements.</li>
+      <li>Communication: Strong written and verbal communication skills, with the ability to explain technical concepts in a clear and concise manner.</li>
+      <li>Problem-Solving: Analytical mindset and the ability to analyze error logs, conduct root cause analysis, and implement effective solutions.</li>
+      <li>Collaboration: Proven ability to collaborate effectively with cross-functional teams to resolve technical challenges and improve service delivery.</li>
+      <li>Documentation: Accurate documentation skills, including tracking support cases and maintaining knowledge bases.</li>
+    </ul>
+
+    <h3 class="section-subtitle" style="color: #0073e6; font-size: 20px; margin-top: 20px;">Education:</h3>
+    <ul class="education-list" style="color: #333;">
+      <li>The University of Technology Jamaica (2023-Present) - Bachelor of Science In Computing (Pending)</li>
+      <li>HEART Trust/NTA-NWTI-Kenilworth Campus (2018-2019) - National Qualification of Jamaica (NVQ-J) Computer Service and Support-Level 2</li>
+      <li>Frome Technical High School (2013–2018) - National Qualification of Jamaica (NVQ-J)-Customer Engagement Associate-Level 1</li>
+    </ul>
+
+    <h3 class="section-subtitle" style="color: #0073e6; font-size: 20px; margin-top: 20px;">Other Achievements:</h3>
+    <p>National Council on Technical and Vocational Education and Training (NC-TVET) Quality Service Delivery</p>
+
+    <h3 class="section-subtitle" style="color: #0073e6; font-size: 20px; margin-top: 20px;">Employment History:</h3>
+    <div class="employment">
+      <p>
+        <strong style="color: #0073e6;">Rural Agricultural Development Authority (RADA)</strong><br>
+        Position: Customer Engagement and Office Administrator<br>
+        Period of Service: September 2019<br>
+        Duties: Assisted customers with acquiring necessary items. Prepared documents using Microsoft Suite. Engaged in database documentation, record keeping, and systematic organization filing.
+      </p>
+
+      <p>
+        <strong style="color: #0073e6;">National Insurance Scheme (N.I.S)</strong><br>
+        Position: Customer Service Representative<br>
+        Period of Service: August 2018<br>
+        Duties: Provided guidance to customers with completing their documentation to acquire their NIS numbers.
+      </p>
+
+      <p>
+        <strong style="color: #0073e6;">Ministry of Education (Knockalva Technical High School)</strong><br>
+        Position: Computer Lab Technician<br>
+        Period of Service: February 2020-present<br>
+        Duties:
+        <ul class="employment-list">
+          <li>Troubleshoot and repair computer hardware and network problems.</li>
+          <li>Troubleshoot servers.</li>
+          <li>Constructed and replaced Ethernet cables.</li>
+          <li>Monitored computer labs to ensure equipment safety and student compliance.</li>
+          <li>Assisted students accessing learning materials on specific programs such as Google Classroom.</li>
+          <li>Installed, configured, and distributed information technology equipment.</li>
+
+          <li>Responded to user queries and support needs.</li>
+          <li>Carried out preventive and corrective maintenance to computer hardware and related equipment.</li>
+        </ul>
+      </p>
+    </div>
+
+    <h3 class="section-subtitle" style="color: #0073e6; font-size: 20px; margin-top: 20px;">References:</h3>
+    <div class="references">
+      <p>
+        Ms. Oshea Hill<br>
+        Constable<br>
+        Petersfield P.O., Westmoreland<br>
+        Tel: <a href="tel:18768918913" style="color: #0073e6;">(876) 891-8913</a>/<a href="tel:18767871695" style="color: #0073e6;">787-1695</a>
+      </p>
+
+      <p>
+        Ms. Ismay Haye<br>
+        Justice of the Peace<br>
+        Shrewsbury Logwood, Petersfield P.O., Westmoreland<br>
+        Tel: <a href="tel:18768842087" style="color: #0073e6;">(876) 884-2087</a>
+      </p>
+    </div>
+
+    <!-- Embed your CV below -->
+    <h3 class="section-subtitle" style="color: #0073e6; font-size: 20px; margin-top: 20px;">Curriculum Vitae (CV):</h3>
+    <iframe src="https://docs.google.com/document/d/15-XcJO_4YmlgJeNdL5JWUkLS5yvjW1Mn/edit?usp=sharing&ouid=104180768852791534134&rtpof=true&sd=true" width="100%" height="500px" class="cv-iframe"></iframe>
+
+    <!-- Job Requirements and Qualifications for a Network Engineer -->
+    <h3 class="section-subtitle" style="color: #0073e6; font-size: 20px; margin-top: 20px;">Job Requirements and Qualifications for a Network Engineer:</h3>
+    <ul class="requirements-list" style="color: #333;">
+      <li>A bachelor's degree in Computer Science, Information Technology, or a related field.</li>
+      <li>Certifications such as Cisco Certified Network Associate (CCNA) or Cisco Certified Network Professional (CCNP) are often required.</li>
+      <li>Strong knowledge of networking protocols, including TCP/IP, DNS, DHCP, and routing protocols like OSPF and BGP.</li>
+      <li>Experience in designing, implementing, and managing enterprise-level network infrastructure.</li>
+      <li>Proficiency in network security, firewalls, and intrusion detection systems.</li>
+      <li>Excellent problem-solving and troubleshooting skills related to network issues.</li>
+      <li>Strong communication and teamwork skills to collaborate with cross-functional teams.</li>
+    </ul>
+  </section>
+</body>
+
+</html>
+
